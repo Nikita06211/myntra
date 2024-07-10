@@ -39,7 +39,7 @@ const SingleCard = ({ multi }) => {
               p: 1,
             }}
           >
-            <center>Buy Now</center>
+            <center>Rent Now</center>
           </Typography>
           <Typography
             sx={{
