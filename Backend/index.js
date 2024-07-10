@@ -8,12 +8,13 @@ const mongoose=require('mongoose')
 app.use(cors());
 app.use(express.json())
 
-app.use('/images', express.static(path.join(__dirname, '/Images')));
+// app.use('/images', express.static(path.join(__dirname, '/Images')));
 
 app.get('/',(req,res) =>{
 res.send("listening")
 })
  const port =3000;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -21,6 +22,8 @@ res.send("listening")
  
 
 >>>>>>> b033e30c76ec5c33bff26d6177406d4a59baf46b
+=======
+>>>>>>> 04937740880baab151e80092caade3557e1e37e9
 mongoose.connect(mongodburl).then(()=>{
 console.log('connected to database');
 app.listen(port,()=>{
