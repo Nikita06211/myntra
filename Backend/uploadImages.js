@@ -36,8 +36,7 @@ const uploadImages = async () => {
         filename: file,
         data: fileData,
         contentType: `image/${fileType}`,
-        size: 'S',  
-        url: `http://localhost:3000/Images/${file}`
+        size: 'S'
     });
 
       try {

@@ -18,11 +18,8 @@ const imageSchema = new mongoose.Schema({
     enum: ['S', 'M', 'L', 'XL', 'XXL'],  
     default: 'S',
     required: true
-  },
-  url: {
-    type: String,
-    required: true,
   }
 });
 
 module.exports = mongoose.model('Image', imageSchema);
+
