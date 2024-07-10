@@ -112,10 +112,10 @@ function App() {
                     className="header--navbar--nav"
                   />
                 </Link>
-                <Link to="/kids" className="header--navbar">
+                <Link to="/rental" className="header--navbar">
                   <Tab
-                    value="kids"
-                    label="Kids"
+                    value="rental"
+                    label="Rental"
                     className="header--navbar--nav"
                   />
                 </Link>
@@ -188,7 +188,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/man" element={<MansProductsPage />} />
           <Route path="/women" element={<WomensProductsPage />} />
-          <Route path="/kids" element={<KidsProductsPage />} />
+          <Route path="/rental" element={<KidsProductsPage />} />
           <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
           <Route path="/beauty" element={<BeautyProductsPage />} />
           <Route path="/singlepage" element={<SingleProduct />} />
