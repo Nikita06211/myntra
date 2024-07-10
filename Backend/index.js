@@ -8,16 +8,12 @@ const mongoose=require('mongoose')
 app.use(cors());
 app.use(express.json())
 
-app.use('/images', express.static(path.join(__dirname, '/Images')));
+// app.use('/images', express.static(path.join(__dirname, '/Images')));
 
 app.get('/',(req,res) =>{
 res.send("listening")
 })
  const port =3000;
-
- 
- 
-
 mongoose.connect(mongodburl).then(()=>{
 console.log('connected to database');
 app.listen(port,()=>{
