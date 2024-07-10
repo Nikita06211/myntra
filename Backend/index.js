@@ -14,16 +14,6 @@ app.get('/',(req,res) =>{
 res.send("listening")
 })
  const port =3000;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
- 
- 
-
->>>>>>> b033e30c76ec5c33bff26d6177406d4a59baf46b
-=======
->>>>>>> 04937740880baab151e80092caade3557e1e37e9
 mongoose.connect(mongodburl).then(()=>{
 console.log('connected to database');
 app.listen(port,()=>{
