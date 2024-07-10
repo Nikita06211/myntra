@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeImage.scss";
-import homeImg1 from "../Images/homeImg1";
+import homeImg1 from "../Images/homeImg1.png";
 import homeImg4 from "../Images/offer.png";
 import homeImg5 from "../Images/homeimg5.png";
 import homeImg6 from "../Images/homeImg6.png";
