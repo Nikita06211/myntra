@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -7,6 +7,8 @@ import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 
 const SingleCard = ({ multi }) => {
+  const imageUrl = `http://localhost:3000/img/${multi._id}`; // Use the path from the schema
+console.log(multi)
   return (
     <>
       <div className="singleCard">
@@ -14,21 +16,19 @@ const SingleCard = ({ multi }) => {
           component="img"
           height="420"
           width="50"
-          image={multi.imageURL}
-          alt="green iguana"
+          image={imageUrl}
+          alt={multi.filename}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {multi.typography}
+            {multi.filename}
           </Typography>
-
-          <Typography>
-            {" "}
-            {multi.Price} <strike>{multi.realPrice}</strike>{" "}
+          <Typography variant="body2" color="text.secondary">
+            Size: {multi.size}
           </Typography>
           <div className="rating">
             <Rating name="half-rating" defaultValue={3.5} precision={0.5} />
-            <span>{multi.rating}</span>
+            <span>{multi.rating || 'N/A'}</span>
           </div>
           <Typography
             sx={{

@@ -5,9 +5,9 @@ const imageSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  data: {
-    type: Buffer,
-    required: true
+  path:{
+type:String,
+required:true
   },
   contentType: {
     type: String,
