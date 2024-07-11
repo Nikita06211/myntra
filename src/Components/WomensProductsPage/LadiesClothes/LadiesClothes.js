@@ -1,5 +1,5 @@
 import React from "react";
-import "./LadiesCloths.scss";
+import "./LadiesClothes.scss";
 import CardsObj from "./CardsObj";
 import SingleCard from "./SingleCard";
 import Grid from "@mui/material/Grid";
