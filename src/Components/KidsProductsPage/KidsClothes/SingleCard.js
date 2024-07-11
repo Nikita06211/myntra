@@ -5,11 +5,15 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
-
+import { useNavigate } from "react-router-dom";
 const SingleCard = ({ multi }) => {
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate("/singlepage");
+  };
   return (
     <>
-      <div className="singleCard">
+      <div className="singleCard" onClick={handleCardClick}>
         <CardMedia
           component="img"
           height="420"
@@ -50,6 +54,7 @@ const SingleCard = ({ multi }) => {
               mt: 0,
               p: 1,
             }}
+            
           >
             <center>Add to Cart</center>
           </Typography>

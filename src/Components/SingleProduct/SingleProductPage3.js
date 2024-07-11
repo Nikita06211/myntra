@@ -44,22 +44,30 @@ const SingleProductPage3 = () => {
           fontSize: "22px",
         }}
       >
-        BUY NOW
+        RENT NOW
       </Button>
       <hr />
       <div style={{ padding: "2rem" }}>
-        <h3>
-          Rs. 899 <span className="realPrice">Rs. 3599</span>
-          <span className="productOffer"> (75% OFF)</span>
-        </h3>
-        <p>
-          <span
-            style={{ color: "#ff3e6c", fontWeight: "bold", fontSize: "16px" }}
-          >
-            Traditional MALL
-          </span>
-        </p>
-      </div>
+  <h3>
+    Rental Price: Rs. 899 <span className="realPrice">Rs. 3599</span>
+    <span className="productOffer"> (75% OFF)</span>
+  </h3>
+  <p>
+    <span style={{ color: "#ff3e6c", fontWeight: "bold", fontSize: "16px" }}>
+      Traditional MALL
+    </span>
+  </p>
+  <p>
+    <span style={{ color: "#28a745", fontWeight: "bold", fontSize: "14px" }}>
+      Rent for 5 days
+    </span>
+  </p>
+  <p>
+    <span style={{ color: "#6c757d", fontSize: "12px" }}>
+      Extend rental period for an additional Rs. 100/day
+    </span>
+  </p>
+</div>
       <hr />
     </>
   );
