@@ -23,7 +23,10 @@ import {
   HomeAndLivinProductsPage,
   BeautyProductsPage,
   SingleProduct,
+  
 } from "./Components";
+
+import { SingleProductPageW } from './Components/WomensProductsPage/SingleProductPageW';
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -187,6 +190,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/man" element={<MansProductsPage />} />
           <Route path="/women" element={<WomensProductsPage />} />
+          <Route path="/product/:id" element={<SingleProductPageW />} />
           <Route path="/rental" element={<KidsProductsPage />} />
           <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
           <Route path="/beauty" element={<BeautyProductsPage />} />
