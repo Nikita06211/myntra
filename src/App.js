@@ -104,7 +104,6 @@ function App() {
                     className="header--navbar--nav"
                   />
                 </Link>
-
                 <Link to="/women" className="header--navbar">
                   <Tab
                     value="women"
