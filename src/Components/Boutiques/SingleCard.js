@@ -18,7 +18,7 @@ const SingleCard = ({ multi }) => {
     <Card sx={{ maxWidth: 345, m: 2 }} onClick={handleCardClick}>
       <CardMedia
         component="img"
-        height="420"
+        height="300"
         image={multi.imageURL}
         alt={multi.typography}
       />
