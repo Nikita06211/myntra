@@ -26,6 +26,7 @@ import {
 } from "./Components";
 import {Boutiques} from "./Components/Boutiques/Boutiques";
 import { Collection } from "./Components/Boutiques/Collection/Collection";
+import {SinglePage} from "./Components/Boutiques/Collection/SinglePage";
 
 import { SingleProductPageW } from './Components/WomensProductsPage/SingleProductPageW';
 
@@ -198,6 +199,7 @@ function App() {
           <Route path="/singlepage" element={<SingleProduct />} />
           <Route path="/boutiques" element = {<Boutiques/>}/>
           <Route path="/collection" element = {<Collection/>}/>
+          <Route path="CollectionSingle" element = {<SinglePage/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>

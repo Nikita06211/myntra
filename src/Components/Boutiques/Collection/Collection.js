@@ -13,7 +13,6 @@ export const Collection = () => {
     textAlign: "center",
     color: theme.palette.text.secondary,
   }));
-
   return (<div className="cards">
     <Grid container spacing={4}>
       {CardsObj.map((obj) => {

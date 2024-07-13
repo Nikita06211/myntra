@@ -6,11 +6,10 @@ import Button from "@mui/material/Button";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
-import { padding } from "@mui/system";
 const SingleCard = ({ multi }) => {
   const navigate = useNavigate();
   const handleCardClick = () => {
-    navigate("/singlepage");
+    navigate("/CollectionSingle");
   };
   return (
     <>
@@ -26,7 +25,6 @@ const SingleCard = ({ multi }) => {
           <Typography gutterBottom variant="h5" component="div">
             {multi.typography}
           </Typography>
-
           <Typography>
             {" "}
             {multi.Price} <strike>{multi.realPrice}</strike>{" "}
