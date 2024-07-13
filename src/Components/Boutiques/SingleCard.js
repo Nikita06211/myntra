@@ -11,9 +11,9 @@ import { useNavigate } from "react-router-dom";
 const SingleCard = ({ multi }) => {
   const navigate = useNavigate();
   const handleCardClick = () => {
-    navigate("/singlepage");
+    navigate("/collection");
   };
-  
+
   return (
     <Card sx={{ maxWidth: 345, m: 2 }} onClick={handleCardClick}>
       <CardMedia
@@ -42,7 +42,7 @@ const SingleCard = ({ multi }) => {
             p: 1,
           }}
         >
-          <center>Explore</center>
+          <center>Buy Now</center>
         </Typography>
         <Typography variant="body2" color="text.secondary">
           The best piece of wearing printed Kurti is that you don't require
