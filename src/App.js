@@ -135,10 +135,10 @@ function App() {
                     className="header--navbar--nav"
                   />
                 </Link>
-                <Link to="/singlepage" className="header--navbar">
+                <Link to="/boutiques" className="header--navbar">
                   <Tab
-                    value="singlepage"
-                    label="Single Page"
+                    value="Boutiques"
+                    label="Boutiques"
                     className="header--navbar--nav"
                   />
                 </Link>

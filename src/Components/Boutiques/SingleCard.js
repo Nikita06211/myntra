@@ -13,7 +13,7 @@ const SingleCard = ({ multi }) => {
   const handleCardClick = () => {
     navigate("/singlepage");
   };
-
+  
   return (
     <Card sx={{ maxWidth: 345, m: 2 }} onClick={handleCardClick}>
       <CardMedia
