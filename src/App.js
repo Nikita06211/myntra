@@ -22,9 +22,9 @@ import {
   KidsProductsPage,
   HomeAndLivinProductsPage,
   BeautyProductsPage,
-  SingleProduct,
-  
+  SingleProduct,  
 } from "./Components";
+import {Boutiques} from "./Components/Boutiques/Boutiques";
 
 import { SingleProductPageW } from './Components/WomensProductsPage/SingleProductPageW';
 
@@ -195,6 +195,7 @@ function App() {
           <Route path="/homeandliving" element={<HomeAndLivinProductsPage />} />
           <Route path="/beauty" element={<BeautyProductsPage />} />
           <Route path="/singlepage" element={<SingleProduct />} />
+          <Route path="/boutiques" element = {<Boutiques/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
