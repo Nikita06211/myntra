@@ -2,6 +2,8 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
+import Lsize from '../Images/Lsize.jpg';
+import { useState } from 'react';
 
 const SizeButton = styled(Button)(({ theme, size }) => ({
   backgroundColor: '#fffff',
@@ -17,13 +19,30 @@ const SizeButton = styled(Button)(({ theme, size }) => ({
 }));
 
 const SizeChartButtons = () => {
+  
+  const [showImage, setShowImage] = useState(false);
+
+  const handleSize = () => {
+    setTimeout(() => {
+      setShowImage(!showImage);
+    }, 2000);
+  }
   return (
+    <>
+    {showImage && (
+      <img
+        src={Lsize}
+        alt="Dark Mode Image"
+        style={{  position: 'absolute', top: '85px', left: '400px', maxWidth: '50%', maxHeight:'78%'}}
+      />
+    )}
     <Box sx={{ display: 'flex', gap: '10px' }}>
       <SizeButton size="S">S</SizeButton>
       <SizeButton size="S">M</SizeButton>
-      <SizeButton size="S">L</SizeButton>
+      <SizeButton size="S" onClick={handleSize}>L</SizeButton>
       <SizeButton size="S">XL</SizeButton>
     </Box>
+    </>
   );
 };
 

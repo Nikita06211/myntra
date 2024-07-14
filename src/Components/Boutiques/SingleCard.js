@@ -42,7 +42,7 @@ const SingleCard = ({ multi }) => {
             p: 1,
           }}
         >
-          <center>Buy Now</center>
+          <center>Explore</center>
         </Typography>
         <Typography variant="body2" color="text.secondary">
           The best piece of wearing printed Kurti is that you don't require
