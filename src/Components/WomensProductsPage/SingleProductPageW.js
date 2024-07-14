@@ -71,7 +71,7 @@ export const SingleProductPageW = () => {
       <Box ml={4} display="flex" flexDirection="column" alignItems="flex-start">
         <ProductDescription
           brand="Anara"
-          productName="Lehenga Choli"
+          productName="Dress"
           description="Anara Women's Net Semi-Stitched Lehenga Choli. Embroidered || Duptta Work : Embroidered & Sequence Work|| Stitched Type : Lehenga Full Stitched and Zip Attach."
           rating={4.2}
           numRatings="1.2k"
