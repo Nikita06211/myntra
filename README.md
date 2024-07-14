@@ -17,15 +17,16 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-Features
-Boutiques
+## Features
+#### Boutiques
 Explore unique boutiques offering curated collections from local designers and fashion influencers. Myntra Clone supports boutique integration to provide users with exclusive, handpicked fashion items not typically found in mainstream collections. Key features include:
 
-Curated Collections: Discover exclusive clothing, accessories, and lifestyle products curated by boutique owners.
+#### Curated Collections 
+Discover exclusive clothing, accessories, and lifestyle products curated by boutique owners.
 Local Designers: Support local designers and explore their latest creations.
 Customization:Users can customize according to their requirements.Customized images are generated using an AI model,
 
-Model Purpose:
+#### Model Purpose
 model appears to be a "pix2pix" implementation, which is typically used for image-to-image translation tasks. In the context of dress customization, it's likely designed to take an input image of a dress and generate a modified version based on the training data.
 Model Architecture:
 The model you've shown is a "convolutional" neural network with a series of downsampling (encoder) and upsampling (decoder) layers. It's structured to process image data and output a transformed image.
