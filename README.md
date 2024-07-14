@@ -29,6 +29,7 @@ Model Purpose:
 model appears to be a "pix2pix" implementation, which is typically used for image-to-image translation tasks. In the context of dress customization, it's likely designed to take an input image of a dress and generate a modified version based on the training data.
 Model Architecture:
 The model you've shown is a "convolutional" neural network with a series of downsampling (encoder) and upsampling (decoder) layers. It's structured to process image data and output a transformed image.
+![image](./Screenshots/boutiquec.png)
 ![image](./Screenshots/boutique.png)
 
 ![image](./Screenshots/screenshot1.jpeg)
@@ -38,6 +39,7 @@ Rent fashion items for special occasions or everyday wear with Myntra's Rental f
 
  AI-powered filters that match models with your skin tone and size, helping you visualize how a particular dress will look on you.Select your skin tone, and AI will modify the dress according to your choice. Similarly, you can specify your size, and AI will show you how the dress will look in your size. This personalized approach helps you make informed fashion decisions tailored to your preferences and body type
 
+![image](./Screenshots/model.png)
 
 
 Technologies Used
