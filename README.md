@@ -54,5 +54,5 @@ This personalized approach helps you make informed fashion decisions tailored to
 #### Frontend:  React.js, Material-UI
 #### Backend:  Node.js, Express.js ,flask
 #### Database:  MongoDB 
-#### ML: Pytorch , Pillow
+#### ML: Pytorch , Pillow , CycleGAN
 [Pytorch model](https://drive.google.com/file/d/1attX17PB5OTlPjyamDxPiN8w5Evgul53/view?usp=sharing)
