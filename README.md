@@ -1,3 +1,5 @@
+About Project
+Myntra Clone is a web application inspired by Myntra, a leading e-commerce platform specializing in fashion and lifestyle products. This project aims to replicate key functionalities and provide a seamless shopping experience for users.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,57 +16,31 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Features
+Boutiques
+Explore unique boutiques offering curated collections from local designers and fashion influencers. Myntra Clone supports boutique integration to provide users with exclusive, handpicked fashion items not typically found in mainstream collections. Key features include:
 
-### `npm run build`
+Curated Collections: Discover exclusive clothing, accessories, and lifestyle products curated by boutique owners.
+Local Designers: Support local designers and explore their latest creations.
+Customization:Users can customize according to their requirements.Customized images are generated using an AI model,
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Model Purpose:
+model appears to be a "pix2pix" implementation, which is typically used for image-to-image translation tasks. In the context of dress customization, it's likely designed to take an input image of a dress and generate a modified version based on the training data.
+Model Architecture:
+The model you've shown is a "convolutional" neural network with a series of downsampling (encoder) and upsampling (decoder) layers. It's structured to process image data and output a transformed image.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Rental Feature
+Rent fashion items for special occasions or everyday wear with Myntra's Rental feature. Ideal for those looking to experiment with new styles without committing to a purchase. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ AI-powered filters that match models with your skin tone and size, helping you visualize how a particular dress will look on you.Select your skin tone, and AI will modify the dress according to your choice. Similarly, you can specify your size, and AI will show you how the dress will look in your size. This personalized approach helps you make informed fashion decisions tailored to your preferences and body type
 
-### `npm run eject`
+![image](./Screenshots/screenshot1.jpeg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies Used
+Frontend: React.js, Material-UI
+Backend: Node.js, Express.js ,flask
+Database: MongoDB 
+ML: Pytorch
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
